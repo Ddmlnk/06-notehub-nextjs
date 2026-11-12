@@ -10,7 +10,6 @@ import NoteList from "@/components/NoteList/NoteList";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import SearchBox from "@/components/SearchBox/SearchBox";
-
 export default function Notes() {
   const [page, setPage] = useState(1);
   const [openCreation, setOpenCreation] = useState(false);
