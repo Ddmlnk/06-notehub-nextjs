@@ -1,6 +1,5 @@
 "use client";
 
-import SearchBox from "@/components/Searchbox/Searchbox";
 import { useState } from "react";
 import css from "./Notes.module.css";
 import Pagination from "@/components/Pagination/Pagination";
@@ -10,6 +9,7 @@ import { useDebouncedCallback } from "use-debounce";
 import NoteList from "@/components/NoteList/NoteList";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
+import SearchBox from "@/components/SearchBox/SearchBox";
 
 export default function Notes() {
   const [page, setPage] = useState(1);
